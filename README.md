@@ -41,6 +41,7 @@ In the Player class, the shape of the turtle is changed to reflect the direction
 The game also uses the turtle listen() function which listens for keyboard events, and turtle onkey() function which binds an event to a key press. These are used to move the player around the maze based on the arrow keys pressed.
 
 C- Debrief:
+
 We started as building a regular maze, but we figured out that it wasn’t as challenging as we wanted our project to be. So, we decided to improve our project but keep the maze as the skeleton of it. Thus, we wanted our project to be a small game using the maze as the interface. During this game, the player will be in the maze with “enemies” and he shall get out of the maze by avoiding those enemies. He also can collect circles, to get more health to get the treasure.
 The first thing that didn’t work well was to randomly creates walls to make it harder for the players with different levels. But then we decided to pre-set it and change the idea of our game, and we realize it was better with enemies. Therefore, it took us some time to generate the enemies, to decide how they should look like, how they could move because we could only make the player move when we play. It turned out well, and this version of “Pac-man” maze game was a better idea.
 The hardest part to develop in our project was without a doubt the V1 version. We had to change the V1 version several times to make it more efficient. For example, we first tried with one enemy and one treasure. Then we add the keys, and in the end, we thought we could add circles to give the player more health.
@@ -56,6 +57,7 @@ There are many ways to upgrade the game, here are a few possibilities:
 6- Add an AI for the enemies: Adding an AI for the enemies that makes them move and act more realistically, such as chasing the player or avoiding obstacles. This can make the game more challenging and engaging for the player, as they will have to use strategy and skill to avoid or defeat the enemies. The added complexity of the enemy behavior can make the game more interesting and dynamic, giving the player a sense of unpredictability and excitement.
 
 D- Conclusion:
+
 For beginners writing this code, some interesting things we found out and we focused on were:
 a. Understanding the basics of turtle graphics: The turtle library is a great way to introduce beginners to the concept of creating graphics in Python. By working through the code and experimenting with different shapes and colors, we gained a solid understanding of the basics of turtle graphics.
 b. Learning how to control the turtle using the arrow keys: The code uses turtle's listen() function to capture key presses and move the player turtle in different directions. we learned how to control a turtle using keyboard inputs.
